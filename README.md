@@ -1,30 +1,60 @@
-# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) HTML Hello
+<!--hide-->
+# HTML5 Form
+<!--endhide-->
 
-The most basic boilerplate for any 4Geeks Academy student, start your very first website from scratch.
+Forms are boring, they are difficult to style, and we have to start dealing with the many user-related issues here (Like usability, security, validations, etc.).
 
-> There is a view tutorial on [how to use this template to create your very first website here](https://youtu.be/dfbDCMu_p-0).
+On the other hand, forms are responsible Web 2.0, they enable interactive websites and all the fun!
 
-## What to do next?
+In this project, you will learn to style forms like a Pro! Using bootstrap components, HTML5 elements, and your first small validations!
 
-Create an `index.html` file with the [basic HTML structure](http://4geeks.com/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+## 🌱  How to start this project
 
-```sh
-$ pip3 install flask && python3 server.py
-```
+Do not clone this repository.
 
-- You can create as many HTML files as you want
-- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
+1. The first step to start coding is cloning the [html boilerplate](https://github.com/4GeeksAcademy/html-hello) on your local computer or opening it using gitpod.
 
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
+a) If using Gitpod you can clone the boilerplate by [clicking here](https://github.com/4GeeksAcademy/html-hello). 
 
-### Contributors
+b) If working locally type the following command from your command line: `$ git clone https://github.com/4GeeksAcademy/html-hello`.  
 
-This template was built as part of the [Full Stack Developer course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) at [4Geeks Academy Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and [many other contributors](https://github.com/4GeeksAcademy/html-hello/graphs/contributors).
+>💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
 
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
+## Instructions
+
+1. Please use your HTML5/CSS skills to replicate [this exact same form](https://github.com/breatheco-de/html5-form/blob/master/preview.png?raw=true).
+2. It's recommended to use the bootstrap framework if you already know it. If you don't, then practice your layout skills using the flex box.
+
+<p align="center">
+  <img src="https://github.com/breatheco-de/html5-form/blob/master/preview.png?raw=true" height="300" />
+</p>
+<p align="center"><a href="https://github.com/breatheco-de/html5-form/blob/master/preview.png?raw=true">click to open image in a new window</a></p>
+
+3. You have to make sure all inputs are being used properly: Input type date, email, input type number, etc.
+4. You also have to make sure to prevent and validate the form in all ways that HTML5 allows you (required inputs, formats, etc.).
+5. Use the input type="date", don't try to code your own date picker calendar.
+6. If you are `not` using bootstrap: build a layout strategy by drawing all the div boxes you can identify, focus particularly on the divs that are laid out horizontally in the same line because those will require using `display: flex`.
+7. If you are using bootstrap: In order to practice all the classes that bootstrap gives you to style your forms, you need almost no CSS of your own.
+
+## Resources
+
+Only if you are using bootstrap: Here is the [bootstrap 5 documentation about forms](https://getbootstrap.com/docs/5.0/forms/overview/))
+
+## Strategy
+
+### If you are not using bootstrap
+
+The layout for this exercise requires a lot of `<div>` and boxes, here is a proposal that could work.
+
+<p align="center">
+  <img src="https://github.com/breatheco-de/exercise-html5-form/blob/master/.learn/form-strateggy.png?raw=true" height="300" />
+</p>
+<p align="center"><a href="https://github.com/breatheco-de/exercise-html5-form/blob/master/.learn/form-strateggy.png?raw=true">click to open image in a new window</a></p>
+
+### If you are using bootstrap
+
+If you are using bootstrap look for the forms documentation and read the example layouts, don't just copy paste what you see, try understanding the HTML code behind the examples so you can tweak them into your solution.
+
+## What to do if you are stuck?
+
+Don't get frustrated, ask for help! After you try on you own for 30 minutes, it is time to stop trying and ask for help.
